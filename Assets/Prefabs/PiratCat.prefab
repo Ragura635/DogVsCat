@@ -228,6 +228,7 @@ MonoBehaviour:
   hungryCat: {fileID: 8306148126806483935}
   fullCat: {fileID: 9214345701918330761}
   front: {fileID: 5421115172264468523}
+  type: 2
 --- !u!61 &-8670265463246064322
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -262,7 +263,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: -0.021159291, y: -0.9839096}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -272,7 +273,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 2.9466593, y: 4.110423}
   m_EdgeRadius: 0
 --- !u!1 &7289819033842317777
 GameObject:

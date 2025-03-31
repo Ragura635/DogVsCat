@@ -10,7 +10,7 @@ public class FoodObjectPoolManager : MonoBehaviour
     [SerializeField] private GameObject prefab;
 
     private const int defaultCapacity = 20;  //초기 풀 크기
-    private const int maxSize = 50;         //풀 최대 크기
+    private const int maxSize = 50;          //풀 최대 크기
 
 
     private void Awake()
@@ -79,6 +79,10 @@ public class FoodObjectPoolManager : MonoBehaviour
         if (objectPool != null)
         {
             objectPool.Release(obj);
+        }
+        else
+        {
+            Destroy(obj);
         }
     }
 }

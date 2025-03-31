@@ -5,7 +5,7 @@ public class Dog : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        InvokeRepeating(nameof(makeFood), 0f, 0.5f);
+        InvokeRepeating(nameof(makeFood), 0f, 0.2f);
     }
 
     // Update is called once per frame
